@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Ckey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:onClick="playC"
+        app:backgroundTint="@color/red" />
+
+    <Button
+        android:id="@+id/Dkey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:onClick="playD"
+        app:backgroundTint="@color/orange" />
+
+    <Button
+        android:id="@+id/Ekey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:onClick="playE"
+        app:backgroundTint="@color/yellow" />
+
+    <Button
+        android:id="@+id/Fkey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:onClick="playF"
+        app:backgroundTint="@color/green" />
+
+    <Button
+        android:id="@+id/Gkey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise"
+        android:onClick="playG"
+        app:backgroundTint="@color/turquoise" />
+
+    <Button
+        android:id="@+id/Akey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:onClick="playA"
+        app:backgroundTint="@color/blue" />
+
+    <Button
+        android:id="@+id/Bkey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:onClick="playB"
+        app:backgroundTint="@color/purple" />
+
+</LinearLayout>
