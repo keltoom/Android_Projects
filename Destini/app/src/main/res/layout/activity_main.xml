@@ -11,12 +11,20 @@
         android:id="@+id/storyTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="false"
+        android:layout_margin="15dp"
+        android:layout_marginStart="10px"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginEnd="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginBottom="10px"
         android:text="@string/T1_Story"
         android:textColor="#FFFFFF"
-        android:textSize="36sp"
-        android:layout_alignParentEnd="true" />
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/buttonTop"
@@ -30,19 +38,21 @@
         android:layout_marginBottom="61dp"
         android:background="#E74C3C"
         android:text="@string/T1_Ans1"
-        android:textColor="#ECF0F1" />
+        android:textColor="#ECF0F1"
+        app:backgroundTint="#E74C3C" />
 
     <Button
         android:id="@+id/buttonBottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:background="#3498DB"
         android:text="@string/T1_Ans2"
         android:textColor="#ECF0F1"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        app:backgroundTint="#3498DB" />
 </RelativeLayout>
